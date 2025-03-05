@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSS Top Footballer</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.8/dist/cdn.min.js" defer></script>
+</head>
+<body class="bg-gray-100 p-6">
+    <div class="max-w-2xl mx-auto bg-white p-6 rounded-lg shadow-md">
+        <h1 class="text-2xl font-bold mb-4">AHP Input Form</h1>
+        <form id="ahp-form">
+            <div class="mb-4">
+                <label for="criteria" class="block text-sm font-medium text-gray-700">Enter Criteria (comma-separated)</label>
+                <input type="text" id="criteria" name="criteria" class="mt-1 block w-full p-2 border border-gray-300 rounded-md" placeholder="Example: Price, Quality, Durability">
+            </div>
+            <div class="mb-4">
+                <label for="alternatives" class="block text-sm font-medium text-gray-700">Enter Alternatives (comma-separated)</label>
+                <input type="text" id="alternatives" name="alternatives" class="mt-1 block w-full p-2 border border-gray-300 rounded-md" placeholder="Example: Product A, Product B, Product C">
+            </div>
+            <button type="submit" class="w-full bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
